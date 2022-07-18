@@ -1,0 +1,59 @@
+
+.enlaces {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.enlaces, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    color: rgb(50, 214, 192);
+    list-style: none;
+    display: inline-block;
+
+}
+
+.tabla {
+	border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.tabla, td{
+	border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.pie {
+    background-color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bordesuperior {
+    border: 1px solid rgb(50, 214, 192);
+
+}
+
+.bordeinferior {
+    border: 2px solid black;
+
+}
