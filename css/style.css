@@ -1,4 +1,3 @@
-
 .enlaces {
     text-decoration: none;
     list-style-type: none;
@@ -9,10 +8,12 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
+
 }
 
-.enlaces, li, a {
+.enlaces,
+li,
+a {
     text-decoration: none;
     list-style-type: none;
     font-style: italic;
@@ -23,15 +24,16 @@
 }
 
 .tabla {
-	border: 3px solid black;
+    border: 3px solid black;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 10px;
 }
 
-.tabla, td{
-	border: 1px solid black;
+.tabla,
+td {
+    border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 30px;
@@ -40,8 +42,18 @@
 
 .pie {
     background-color: aquamarine;
+    border-color: rgb(50, 214, 192);
+    font-style: italic;
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body {
+    border-color: aliceblue;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -56,4 +68,34 @@
 .bordeinferior {
     border: 2px solid black;
 
+}
+
+.entrada {
+    background-color: aquamarine;
+
+}
+
+.cajadatos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(50, 214, 192);
+}
+
+#botonform {
+    border: 3px solid rgb(50, 214, 192);
+    font-size: 20px;
+    display: inline;
+}
+
+#botoncontacto {
+    border: 3px solid rgb(50, 214, 192);
+    font-size: 20px;
+    display: inline-block;
+}
+
+#titulo {
+    margin-left: 170px;
+    margin-right: 50px;
+    display: inline;
+    text-align: center;
 }
