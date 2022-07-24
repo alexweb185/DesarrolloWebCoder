@@ -44,12 +44,13 @@ td {
     background-color: aquamarine;
     border-color: rgb(50, 214, 192);
     font-style: italic;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Cormorant SC', serif;
 }
 
 .body {
@@ -58,6 +59,8 @@ td {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Cormorant SC', serif;
+
 }
 
 .bordesuperior {
