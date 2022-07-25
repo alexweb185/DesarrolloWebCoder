@@ -23,6 +23,16 @@ a {
 
 }
 
+.enlaces:hover {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    color: rgba(0, 0, 0);
+    list-style: none;
+    display: inline-block;
+
+}
+
 .tabla {
     border: 3px solid black;
     margin-top: 10px;
@@ -48,19 +58,24 @@ td {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: 'Cormorant SC', serif;
 }
 
 .body {
     border-color: aliceblue;
+    max-height: 1200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-family: 'Cormorant SC', serif;
+    height: 1000px;
 
+}
+.titulo-portada {
+    text-align: center;
 }
 
 .bordesuperior {
@@ -101,4 +116,65 @@ td {
     margin-right: 50px;
     display: inline;
     text-align: center;
+}
+#titulo:hover {
+    margin-left: 170px;
+    margin-right: 50px;
+    color: rgba(0, 0, 0);
+    display: inline;
+    text-align: center;
+}
+
+.menu-lateral {
+    float: right;
+    border-radius: 15px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border: 3px dashed rgb(50, 214, 192);
+    height: 800px;
+    width: 210px;
+
+}
+
+.menu-lateral span{
+    float: right;
+    align-items: right;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;    
+
+}
+
+.contenido {
+    float: left;
+    text-align: justify;
+    color: blue;
+    width: 1150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.centro {
+    float: left;
+    border: 2px dashed rgb(50, 214, 192);
+    border-radius: 15px;
+    width: 1350px;
+    height: 800px;
+    margin-top: 55px;
+    margin-bottom: 150px;
+    margin-left: 40px;
+    margin-right: 30px;
+   
 }
