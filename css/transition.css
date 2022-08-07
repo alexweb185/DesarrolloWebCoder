@@ -26,15 +26,12 @@ a {
 .enlaces:hover {
     text-decoration: none;
     list-style-type: none;
-    font-size: 27px;
-    transition: 0.5s;
     font-style: italic;
     color: rgba(0, 0, 0);
     list-style: none;
     display: inline-block;
 
 }
-
 
 .tabla {
     border: 3px solid rgb(0, 0, 0);
@@ -196,3 +193,13 @@ td {
     margin-bottom: 20px;
 }
 
+.gradiente-padre{
+    border: 2px solid black;
+}
+
+.gradiente{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left, red, yellow);
+    transform: translate(20px, 10px);
+}
