@@ -1,97 +1,100 @@
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
-    <title>Formulario de Pedido</title>
+    <title>Acerca del Sitio</title>
 </head>
 
 <body>
-    <section class="menuarriba">
-        <ul>
-            <li><a href="../index.html" class="enlaces">Inicio</a></li>
-            <li><a href="formpedido.html" class="enlaces">Formulario</a></li>
-            <li><a href="galeria.html" class="enlaces">Galeria</a></li>
-            <li><a href="contacto.html" class="enlaces">Contacto</a></li>
-            <li><a href="acerca.html" class="enlaces">Acerca</a></li>
-            <li>
-                <a href="index.html">
-                    <h1 id="titulo">Tu E-Commerce Tecnologico</h1>
-                </a>
-            </li>
-        </ul>
-    </section>
-    
-    <fieldset class="body">
-        <form action="">
-            <br />
-            <fieldset class="cajadatos">
-                <legend>Datos Personales</legend>
-                <br />
-                <label for="">Nombre:</label>
-                <input type="text" placeholder="nombre" class="entrada">
-                <br />
-                <br />
-                <label for="">Region</label>
-                <select>
-                    <option>RM</option>
-                    <option>Valparaiso</option>
-                    <option>Bio Bio</option>
-                </select>
-                <br />
-                <br />
-                <label for="">Direccion:</label>
-                <input type="text" class="entrada">
-                <br />
-                <br />
-                <label for="">Genero:</label>
-                <br />
-                <label for="">Hombre</label>
-                <input type="radio" name="genero">
-                <label for="">Mujer</label>
-                <input type="radio" name="genero">
-                <br />
-                <br />
-            </fieldset>
-            <fieldset class="cajadatos">
-                <legend>Solicitud Producto</legend>
-                <br />
-                <br />
-                <label for="">Producto</label>
-                <select>
-                    <option>Producto 1</option>
-                    <option>Producto 2</option>
-                    <option>Producto 3</option>
-                </select>
-                <br />
-                <br />
-                <label for="">Cantidad De Equipos:</label>
-                <input type="number" placeholder="0">
-                <br />
-                <br />
-                <label for="">Comentario</label>
-                <textarea class="entrada"></textarea>
-                <br />
-                <br />
-            </fieldset>
-            <input type="submit" value="Aceptar" id="botonform">
-        </form>
-        <br />
-        <br />
-    </fieldset>
-</body>
+    <div id="grid">
+        <header class="header" class="border">
+            <section class="menuarriba">
+                <ul>
+                    <li><a href="../index.html" class="enlaces">Inicio</a></li>
+                    <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
+                    <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
+                    <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
+                    <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
+                </ul>
+            </section>
+        </header>
+        <section class="productos" class="border">
 
-<footer>
-    <fieldset class="pie">
-        <br>
-        <h2>Tu E-commerce Tecnologico</h2>
-        <br>
-    </fieldset>
-</footer>
+            <form action="">
+                <br />
+                <fieldset class="cajadatos">
+                    <legend>Datos Personales</legend>
+                    <br />
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="nombre" class="entrada">
+                    <br />
+                    <br />
+                    <label for="">Region</label>
+                    <select>
+                        <option>RM</option>
+                        <option>Valparaiso</option>
+                        <option>Bio Bio</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label for="">Direccion:</label>
+                    <input type="text" class="entrada">
+                    <br />
+                    <br />
+                    <label for="">Genero:</label>
+                    <br />
+                    <label for="">Hombre</label>
+                    <input type="radio" name="genero">
+                    <label for="">Mujer</label>
+                    <input type="radio" name="genero">
+                    <br />
+                    <br />
+                </fieldset>
+                <fieldset class="cajadatos">
+                    <legend>Solicitud Producto</legend>
+                    <br />
+                    <br />
+                    <label for="">Producto</label>
+                    <select>
+                        <option>Producto 1</option>
+                        <option>Producto 2</option>
+                        <option>Producto 3</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label for="">Cantidad De Equipos:</label>
+                    <input type="number" placeholder="0">
+                    <br />
+                    <br />
+                    <label for="">Comentario</label>
+                    <textarea class="entrada"></textarea>
+                    <br />
+                    <br />
+                </fieldset>
+                <input type="submit" value="Aceptar" id="botonform">
+            </form>
+            <br />
+            <br />
+
+        </section>
+        <nav class="nav" class="border">
+            <ul>
+                <li><a href="../index.html" class="enlaces">Inicio</a></li>
+                <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
+                <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
+                <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
+                <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
+            </ul>
+        </nav>
+        <footer class="foot" class="border">
+            <fieldset class="pie">
+                <br>
+                <h2>Tu E-commerce Tecnologico</h2>
+                <br>
+            </fieldset>
+        </footer>
+    </div>
+</body>
 
 </html>

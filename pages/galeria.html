@@ -5,50 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
-    <title>Galeria</title>
+    <title>Acerca del Sitio</title>
 </head>
 
 <body>
 
-    <section class="menuarriba">
-        <ul>
-            <li><a href="../index.html" class="enlaces">Inicio</a></li>
-            <li><a href="formpedido.html" class="enlaces">Formulario</a></li>
-            <li><a href="galeria.html" class="enlaces">Galeria</a></li>
-            <li><a href="contacto.html" class="enlaces">Contacto</a></li>
-            <li><a href="acerca.html" class="enlaces">Acerca</a></li>
-            <li>
-                <a href="index.html">
-                    <h1 id="titulo">Tu E-Commerce Tecnologico</h1>
-                </a>
-            </li>
-        </ul>
-    </section>
-
-    <fieldset class="body">
-        <table class="tabla">
-            <tr>
-                <td> <img src="../img/audifinos.jpg" alt="audifonos" width="250px" height="250px"> </td>
-                <td> <img src="../img/camara.jpg" alt="camara" width="250px" height="250px"> </td>
-                <td> <img src="../img/comando.jpg" alt="comando" width="250px" height="250px"> </td>
+    <div id="grid">
+        <header class="header" class="border">
+            <section class="menuarriba">
+                <ul>
+                    <li><a href="../index.html" class="enlaces">Inicio</a></li>
+                    <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
+                    <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
+                    <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
+                    <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
+                </ul>
+            </section>
+        </header>
+        <section class="productos" class="border">
+            <div class="divgaleria">
+                <tr>
+                    <td class="prodgaleria"> <img src="../img/audifinos.jpg" alt="audifonos" width="250px"
+                            height="250px"> </td>
+                    <td class="prodgaleria"> <img src="../img/camara.jpg" alt="camara" width="250px" height="250px">
+                    </td>
+                    <td class="prodgaleria"> <img src="../img/comando.jpg" alt="comando" width="250px" height="250px">
+                    </td>
+                    <td class="prodgaleria"> <img src="../img/novedad.jpg" alt="novedad" width="250px" height="250px">
+                    </td>
+                </tr>
+            </div>
+        </section>
+        <nav class="nav" class="border">
+            <ul>
+                <li><a href="../index.html" class="enlaces">Inicio</a></li>
+                <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
+                <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
+                <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
+                <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
+            </ul>
+        </nav>
+        <footer class="foot" class="border">
+            <fieldset class="pie">
                 <br>
-                <td> <img src="../img/novedad.jpg" alt="novedad" width="250px" height="250px"> </td>
-                <td> <img src="../img/phone.jpg" alt="phone" width="250px" height="250px"> </td>
-                <td> <img src="../img/reloj.jpg" alt="reloj" width="250px" height="250px"> </td>
-            </tr>
-        </table>
-    </fieldset>
+                <h2>Tu E-commerce Tecnologico</h2>
+                <br>
+            </fieldset>
+        </footer>
+    </div>
 </body>
-
-<footer>
-    <fieldset class="pie">
-        <br>
-        <h2>Tu E-commerce Tecnologico</h2>
-        <br>
-    </fieldset>
-</footer>
 
 </html>
