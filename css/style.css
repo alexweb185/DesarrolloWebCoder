@@ -307,3 +307,19 @@ a {
         ;
     }
 }
+
+
+/* The animation code */
+@keyframes foot {
+    0%   {color: rgb(8, 8, 8);}
+    25%  {color: rgb(255, 255, 255);}
+    50%  {color: rgb(0, 0, 0);}
+    100% {color: rgb(255, 255, 255);}
+  }
+  
+  /* The element to apply the animation to */
+  .animacion {
+    animation-name: foot;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
