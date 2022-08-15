@@ -320,6 +320,6 @@ a {
   /* The element to apply the animation to */
   .animacion {
     animation-name: foot;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
   }
