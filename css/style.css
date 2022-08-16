@@ -316,9 +316,10 @@ a {
     100% {color: rgb(255, 255, 255);}
   }
   
-  /* The element to apply the animation to */
+
   .animacion {
     animation-name: foot;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+
   }
