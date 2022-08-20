@@ -43,7 +43,7 @@ a {
 .enlaces:hover {
     text-decoration: none;
     list-style-type: none;
-    font-size: 27px;
+    font-size: 22px;
     transition: 0.5s;
     font-style: italic;
     color: rgba(0, 0, 0);
