@@ -120,9 +120,6 @@ a {
     margin-bottom: 25px;
 }
 
-.border {
-    border: 2px solid black;
-}
 
 .productos {
     grid-area: productos;
@@ -144,8 +141,12 @@ a {
 }
 
 .cajadatos {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .cajacontacto {
     padding-top: 35px;
