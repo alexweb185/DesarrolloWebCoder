@@ -43,7 +43,7 @@ a {
 .enlaces:hover {
     text-decoration: none;
     list-style-type: none;
-    font-size: 27px;
+    font-size: 22px;
     transition: 0.5s;
     font-style: italic;
     color: rgba(0, 0, 0);
@@ -52,8 +52,8 @@ a {
 }
 
 .pie {
-    background-color: rgb(50, 214, 192);
-    border-color: rgb(50, 214, 192);
+    background-color: #0dcaf0;;
+    border-color: #0dcaf0;;
     border-radius: 15px;
     font-style: italic;
     font-size: 15px;
@@ -66,24 +66,24 @@ a {
 }
 
 .entrada {
-    background-color: aquamarine;
+    background-color: #0dcaf0;;
 
 }
 
 .cajadatos {
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 2px solid rgb(50, 214, 192);
+    border: 2px solid rgb(247, 247, 247);
 }
 
 #botonform {
-    border: 3px solid rgb(50, 214, 192);
+    border: 3px solid #0dcaf0;
     font-size: 20px;
     display: inline;
 }
 
 #botoncontacto {
-    border: 3px solid rgb(50, 214, 192);
+    border: 3px solid #0dcaf0;
     font-size: 20px;
     display: inline-block;
 }
@@ -93,8 +93,8 @@ a {
     position: fixed;
     top: 5px;
     border-radius: 15px;
-    border: 2px solid rgb(50, 214, 192);
-    background-color: rgb(133, 146, 133);
+    border: 2px solid #0dcaf0;
+    background-color: rgb(255, 255, 255);
     width: auto;
     margin-left: 25px;
     margin-right: 25px;
@@ -120,14 +120,11 @@ a {
     margin-bottom: 25px;
 }
 
-.border {
-    border: 2px solid black;
-}
 
 .productos {
     grid-area: productos;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 1px solid #0dcaf0;;
     max-width: 930px;
     border-radius: 15px;
     margin-top: 7px;
@@ -144,14 +141,18 @@ a {
 }
 
 .cajadatos {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .cajacontacto {
     padding-top: 35px;
     padding-left: 10px;
     padding-bottom: 10px;
-    border: 2px solid rgb(50, 214, 192);
+    border: 2px solid #0dcaf0;
 }
 
 .divgaleria {
@@ -172,7 +173,7 @@ a {
 
 .foot {
     grid-area: foot;
-    background-color: rgb(50, 214, 192);
+    background-color: #0dcaf0;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     margin-top: 7px;
@@ -182,7 +183,7 @@ a {
 
 .nav {
     grid-area: nav;
-    background-color: rgb(169, 169, 169);
+    background-color: #0dcaf0;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     margin-top: 7px;

@@ -4,56 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
     <link rel="stylesheet" href="../css/style.css">
-    <title>Contactanos</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>E-Commerce Tecnologico</title>
 </head>
 
 <body>
-    <div id="grid">
-        <header class="header" class="border">
-            <section class="menuarriba">
-                <ul>
-                    <li><a href="../index.html" class="enlaces">Inicio</a></li>
-                    <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
-                    <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
-                    <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
-                    <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
-                </ul>
-            </section>
-        </header>
-        <section class="productos" class="border">
-            <fieldset class="cajacontacto">
-                <br />
-                <label for="">Nombre:</label>
-                <input type="text" placeholder="nombre" class="entrada">
-                <br />
-                <br />
-                <label for="">Comentario</label>
-                <textarea class="entrada"></textarea>
-                <br />
-                <br />
-                <input type="submit" value="Enviar" id="botoncontacto">
-                <br>
-                <br>
-            </fieldset>
-        </section>
-        <nav class="nav" class="border">
-            <ul>
-                <li><a href="../index.html" class="enlaces">Inicio</a></li>
-                <li><a href="./formpedido.html" class="enlaces">Formulario</a></li>
-                <li><a href="./galeria.html" class="enlaces">Galeria</a></li>
-                <li><a href="./contacto.html" class="enlaces">Contacto</a></li>
-                <li><a href="./acerca.html" class="enlaces">Acerca</a></li>
-            </ul>
+    <section class="container-fluid mt-6 mb-4">
+        <nav class="navbar navbar-expand-lg bg-info sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active enlaces" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlaces" href="./promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlaces" href="./formpedido.html">Formulario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlaces" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enlaces" href="./acerca.html">Acerca</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <footer class="foot" class="border">
-            <fieldset class="pie">
+
+        <div class="mt-4 mb-4"></div>
+
+        <div class="row mt-8 mb-7 me-7 ms-4 pe-5 text-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+             <h2>CONTACTO</h2>
+            </div>
+        </div>
+
+        <div class="row mt-8 mb-7 me-7 ms-4 pe-5">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <!-- Card -->
+                <div class="card ms-4 mt-4 mb-4" style="width: 18rem;">
+                    <img class="row text-center" src="../img/contactus.jpeg" alt="acerca" width="300px" height="200">
+                </div>
+                <!-- Fin card -->
+            </div>
+        </div>
+
+        <div class="row mt-8 mb-7 me-7 ms-4 pe-5">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+               
+                <fieldset class="">
+                    <br />
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="nombre" class="entrada">
+                    <br />
+                    <br />
+                    <label for="">Comentario</label>
+                    <textarea class="entrada"></textarea>
+                    <br />
+                    <br />
+                    <input type="submit" value="Enviar" id="botoncontacto">
+                    <br>
+                    <br>
+                </fieldset>
+                
+            </div>
+        </div>
+        
+        <div class="mt-4 mb-4"></div>
+
+        <footer class="fixed-bottom">
+            <fieldset class="pie bg-info container-fluid mt-10 mb-4 me-2 ms-2">
                 <br>
                 <h2 class="animacion">Tu E-commerce Tecnologico</h2>
                 <br>
             </fieldset>
         </footer>
-    </div>
+    </section>
+
+    <!-- Bootstrap -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
