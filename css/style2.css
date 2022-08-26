@@ -1,0 +1,25 @@
+.enlaces {
+  list-style: none;
+}
+.enlaces li {
+  padding: 15px;
+  display: inline-block;
+}
+.enlaces li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: italic;
+  color: rgb(50, 214, 192);
+  list-style: none;
+  display: inline-block;
+}
+.enlaces:hover {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 22px;
+  transition: 0.5s;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  display: inline-block;
+}/*# sourceMappingURL=style2.css.map */

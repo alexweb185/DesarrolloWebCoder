@@ -1,0 +1,30 @@
+.enlaces {
+    list-style: none;
+
+    li {
+        padding: 15px;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            font-style: italic;
+            color: rgb(50, 214, 192);
+            list-style: none;
+            display: inline-block;
+
+        }
+    }
+
+    &:hover {
+
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 22px;
+        transition: 0.5s;
+        font-style: italic;
+        color: rgba(0, 0, 0);
+        list-style: none;
+        display: inline-block;
+    }
+}
