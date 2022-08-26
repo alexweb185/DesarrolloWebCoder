@@ -1,3 +1,5 @@
+@import "./colors";
+
 .enlaces {
     list-style: none;
 
@@ -27,4 +29,35 @@
         list-style: none;
         display: inline-block;
     }
+}
+
+.menuarriba {
+    float: inline-start;
+    position: fixed;
+    top: 5px;
+    border-radius: 15px;
+    border: 2px solid $back-ground;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: $back-ground;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
 }
