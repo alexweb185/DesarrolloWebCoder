@@ -1,0 +1,116 @@
+.h2carousel {
+  color: rgb(111, 199, 234);
+}
+.h2carousel:hover {
+  color: rgb(76, 93, 96);
+}
+
+footer {
+  max-width: 1fr;
+  max-height: auto;
+  /* The animation code */
+}
+footer .pie {
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+  border-radius: 15px;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Cormorant SC", serif;
+}
+@-webkit-keyframes foot {
+  0% {
+    color: rgb(8, 8, 8);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgb(0, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+@keyframes foot {
+  0% {
+    color: rgb(8, 8, 8);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgb(0, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+footer .animacion {
+  -webkit-animation-name: foot;
+          animation-name: foot;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.enlaces {
+  list-style: none;
+}
+.enlaces li {
+  padding: 15px;
+  display: inline-block;
+}
+.enlaces li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: italic;
+  color: rgb(50, 214, 192);
+  list-style: none;
+  display: inline-block;
+}
+.enlaces:hover {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 22px;
+  transition: 0.5s;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  display: inline-block;
+}
+
+.menuarriba {
+  float: inline-start;
+  position: fixed;
+  top: 5px;
+  border-radius: 15px;
+  border: 2px solid #0dcaf0;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #0dcaf0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}/*# sourceMappingURL=style2.css.map */

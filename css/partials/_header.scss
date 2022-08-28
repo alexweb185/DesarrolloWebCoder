@@ -1,0 +1,63 @@
+@import "./colors";
+
+.enlaces {
+    list-style: none;
+
+    li {
+        padding: 15px;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            font-style: italic;
+            color: rgb(50, 214, 192);
+            list-style: none;
+            display: inline-block;
+
+        }
+    }
+
+    &:hover {
+
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 22px;
+        transition: 0.5s;
+        font-style: italic;
+        color: rgba(0, 0, 0);
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+.menuarriba {
+    float: inline-start;
+    position: fixed;
+    top: 5px;
+    border-radius: 15px;
+    border: 2px solid $back-ground;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: $back-ground;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+}

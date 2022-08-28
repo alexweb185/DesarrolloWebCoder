@@ -1,0 +1,47 @@
+footer {
+
+    max-width: 1fr;
+    max-height: auto;
+
+    .pie {
+        background-color: $back-ground;
+        border-color: $back-ground;
+        border-radius: 15px;
+        font-style: italic;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: 'Cormorant SC', serif;
+    }
+
+    /* The animation code */
+    @keyframes foot {
+        0% {
+            color: rgb(8, 8, 8);
+        }
+
+        25% {
+            color: rgb(255, 255, 255);
+        }
+
+        50% {
+            color: rgb(0, 0, 0);
+        }
+
+        100% {
+            color: rgb(255, 255, 255);
+        }
+    }
+
+
+    .animacion {
+        animation-name: foot;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+}

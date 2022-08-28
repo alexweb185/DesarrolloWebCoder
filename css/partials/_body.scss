@@ -1,0 +1,14 @@
+@import "./colors";
+
+.h2carousel {
+
+    color: $h2-color;
+
+    &:hover {
+
+        color: $hoverh2-color;
+        
+
+    }
+
+}
