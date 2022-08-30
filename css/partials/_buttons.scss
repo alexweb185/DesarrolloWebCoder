@@ -1,0 +1,11 @@
+@import "./extends";
+
+.botonsass {
+    @extend %botonbase;
+    font-size: 25px;
+    @include botones();
+
+    p {
+        color: map-get($estilos, colorSecundario);
+    }
+}

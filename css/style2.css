@@ -113,4 +113,20 @@ footer .animacion {
   display: flex;
   justify-content: space-around;
   align-content: center;
+}
+
+.botonsass {
+  padding: 10px;
+  border: none;
+  border-radius: 1px;
+  background-color: aqua;
+}
+
+.botonsass {
+  font-size: 25px;
+  width: 70px;
+  height: 40px;
+}
+.botonsass p {
+  color: red;
 }/*# sourceMappingURL=style2.css.map */
