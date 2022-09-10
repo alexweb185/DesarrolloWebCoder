@@ -4,8 +4,12 @@
     @extend %botonbase;
     font-size: 25px;
     @include botones();
+    text-decoration: none;
+    border-radius: 12%;
+    border-color: $back-ground;
 
     p {
         color: map-get($estilos, colorSecundario);
     }
+    
 }
