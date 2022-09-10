@@ -208,6 +208,7 @@ a {
     font-size: 30px;
 }
 
+
 @media screen and (min-width: 460px) {
     #grid {
         grid-template-columns: 220px;
