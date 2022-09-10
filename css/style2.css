@@ -132,6 +132,9 @@ footer .animacion {
   font-size: 25px;
   width: 70px;
   height: 40px;
+  text-decoration: none;
+  border-radius: 12%;
+  border-color: #0dcaf0;
 }
 .botonsass p {
   color: red;
